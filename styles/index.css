@@ -1,0 +1,700 @@
+/* Balises */
+
+body{
+    margin : 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #E8E8E8;
+}
+
+button{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #017D79;
+    transition: 400ms;
+}
+
+textarea{
+    resize: none;
+}
+
+/* ID */
+
+/* Nav */
+
+#header_fond{
+    display: flex;
+    background-color: #017D79;
+    width: 100%;
+    height: 80px;
+}
+
+#skills{
+    position: relative;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 100%;
+}
+
+#works{
+    position: relative;
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 100%;
+}
+
+#contact{
+    margin-left: 110px;
+    margin-right: 110px;
+    height: 100%;
+}
+
+#resume{
+    margin-left: 110px;
+    margin-right: 0px;
+    height: 100%;
+}
+
+#grey_circle{
+    position : relative;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    margin-top: auto;
+}
+
+#logo{
+    position: relative;
+    margin: auto;
+    width: 55px;
+}
+
+/* 1ère partie */
+
+#presentation{
+    position: relative;
+    background-color: #E8E8E8;
+    margin-top: -80px;
+    width: 100%;
+    height: 630px;
+    padding: 0;
+    padding-bottom: 40px;
+    padding-top: 110px;
+}
+
+#titre{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    font-family: 'Dealerplate';
+    margin: auto;
+    padding: 0;
+}
+
+#nom{
+    position: relative;
+    margin: auto;
+    color: black;
+    font-size: 100px;
+    font-family: 'Dealerplate';
+}
+
+#titre_div{
+    display: flex;
+}
+
+#arno{
+    display: flex;
+}
+
+#presentation_content{
+    display: flex;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+#profil{
+    margin: auto;
+}
+
+#presentation_text{
+    font-family: 'Sono';
+    font-size: 25px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#black_border{
+    border: 8px solid black;
+    border-radius: 300px;
+    padding: 50px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+/* Deuxième section */
+
+#myskills{
+    position: relative;
+    background-color: #025254;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    padding: 0;
+    padding-top: 80px;
+}
+
+#titre2_div{
+    display: flex;
+}
+
+#titre2{
+    position: relative;
+    color: #D9D9D9;
+    font-size: 100px;
+    font-family: 'Dealerplate';
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+#myskills_text{
+    color: #D9D9D9;
+    font-family: 'Sono';
+    font-size: 25px;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#myskills_text_div{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#exemples{
+    margin: auto;
+    display: flex;
+}
+
+#languages{
+    color: #D9D9D9;
+    font-family: 'Sono';
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    line-height: 180%;
+}
+
+#languages_div{
+    margin: auto;
+    margin-right: 60px;
+}
+
+#languages_img_div{
+    margin: auto;
+    margin-left: 60px;
+}
+
+#sql{
+    position: relative;
+    width: 18%;
+    height: 18%;
+    margin: auto;
+    margin-right: 5%;
+}
+
+#html{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    margin: auto;
+}
+
+#css{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    margin: auto;
+}
+
+#php{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+#javascript{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
+
+/* Troisième section */
+
+#myworks{
+    position: relative;
+    background-color: #D9D9D9;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    padding-top: 80px;
+}
+
+#titre3_div{
+    display: flex;
+    margin-top: 20px;
+}
+
+#titre3{
+    position: relative;
+    color:#017D79;
+    font-size: 100px;
+    font-family: 'Dealerplate';
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+#myworks_text{
+    color: #017D79;
+    font-family: 'Sono';
+    font-size: 25px;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+#myskills_text_div{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+/* JS */
+
+#sae203{
+    width: 800px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+#proverbe{
+    width: 350px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+#affiche{
+    width: 350px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+#sae203_js{
+    top: 20%;
+    left: 23.5%;
+    position: absolute;
+}
+
+#proverbe_js{
+    top: 5%;
+    left: 37%;
+    position: absolute;
+}
+
+#affiche_js{
+    top: 5%;
+    left: 37%;
+    position: absolute;
+}
+
+#content_js{
+    position: absolute;
+    width: 800px;
+    margin-top: -70px;
+    border-radius: 20px;
+    background-color: #025254;
+    z-index: 2;
+}
+
+#content2_js{
+    position: absolute;
+    width: 350px;
+    margin-top: -40px;
+    border-radius: 20px;
+    background-color: #025254;
+    z-index: 2;
+}
+
+#content3_js{
+    position: absolute;
+    width: 350px;
+    margin-top: -40px;
+    border-radius: 20px;
+    background-color: #025254;
+    z-index: 2;
+}
+
+#titre_js{
+    font-family: 'Dealerplate';
+    font-size: 35px;
+    color: #D9D9D9;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#text_js{
+    font-family: 'Sono';
+    font-size: 15px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+#works_content{
+    z-index: 1;
+}
+
+#close{
+    font-family: 'Sono';
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    z-index: 3;
+    top: 10px;
+    right: 25px;
+}
+
+.cache{
+    visibility: hidden;
+}
+
+.blur{
+    filter: blur(2px);
+}
+
+/* Quatrième section */
+
+#sendmessage{
+    position: relative;
+    background-color: #E8E8E8;
+    margin: 0;
+    width: 100%;
+    height: 650px;
+    padding: 0;
+    padding-top: 80px;
+}
+
+
+#titre4_div{
+    display: flex;
+}
+
+#titre4{
+    position: relative;
+    color:#025254;
+    font-size: 100px;
+    font-family: 'Dealerplate';
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+#sendmessage_name_div{
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    margin-right: 10px;
+}
+
+#sendmessage_message_div{
+    margin: auto;
+    margin-top: 0;
+    position: relative;
+    margin-left: 10px;
+}
+
+#sendmessage_input2{
+    margin: auto;
+    font-family: 'Sono';
+    font-size: 15px;
+    margin-top: 20px;
+    border: solid 3px #025254;
+    background-color: #E8E8E8;
+    border-radius: 12px;
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+}
+
+/* Cinquième section (footer) */
+
+#footer_fond{
+    position: relative;
+    background-color: #017D79;
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+#footer_content{
+    margin: auto;
+    height: 100%;
+}
+
+#footer_mail{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    color: #D9D9D9;
+    font-family: 'Sono';
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+#footer_phone{
+    margin: auto;
+    position: relative;
+    margin: auto;
+    color: #D9D9D9;
+    font-family: 'Sono';
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#linkedin{
+    margin: auto;
+    width: 60px;
+}
+
+#twitter{
+    margin: auto;
+    width: 70px;
+}
+
+#instagram{
+    margin: auto;
+    width: 60px;
+}
+
+/* Class */
+
+.myresume{
+    color: #017D79;
+    background-color: #E8E8E8;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+}
+
+.dealerplate{
+    position: relative;
+    font-family: 'Dealerplate';
+    margin: auto;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+}
+
+.dealerplate2{
+    position: relative;
+    font-family: 'Dealerplate';
+    margin: auto;
+}
+
+.title{
+    position: relative;
+    color: #E8E8E8;
+    font-size: 15px;
+}
+
+.five_rub{
+    margin: auto;
+    margin-bottom: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.works{
+    background-color: #017D79;
+    border-radius: 50px;
+    padding: 30px;
+    margin: auto;
+    ruby-position: under;
+}
+
+.works_content{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.works_title{
+    color: #D9D9D9;
+    font-family: 'Dealerplate';
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.works_text{
+    color: #D9D9D9;
+    width: 250px;
+    font-family: 'Sono';
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.works_button{
+    background-color: #00B0C2;
+    color: #D9D9D9;
+    width: 50%;
+    padding: 15px;
+    font-family: 'Sono';
+    border-radius: 15px;
+    border: 0;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.sendmessage_text{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin: auto;
+    color: #025254;
+    font-family: Sono;
+    font-size: 40px;
+}
+
+.sendmessage_input{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: solid 3px #025254;
+    background-color: #E8E8E8;
+    border-radius: 12px;
+    width: 500px;
+    height: 30px;
+    font-family: 'Sono';
+    font-size: 15px;
+    padding: 10px;
+}
+
+.medias{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.x{
+    background-color: black;
+    color: #D9D9D9;
+    border: 0;
+    font-size: 40px;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+}
+
+.form_button{
+    background-color: #00B0C2;
+    color: #D9D9D9;
+    width: 30%;
+    padding: 15px;
+    font-family: 'Sono';
+    border-radius: 15px;
+    border: 0;
+    font-size: 25px;
+    margin: auto;
+}
+
+/*  Survol */
+
+.dealerplate:hover{
+    background-color: #E8E8E8;
+    color: #017D79;
+    transition: 300ms;
+}
+
+.myresume:hover{
+    background-color: #025254;
+    color: #E8E8E8;
+    transition: 300ms;
+}
+
+.x:hover{
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.works_button:hover{
+    background-color: #D9D9D9;
+    color: #00B0C2;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.form_button:hover{
+    background-color: #D9D9D9;
+    color: #00B0C2;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+/* Police d'écriture */
+
+@font-face {
+    font-family: 'Dealerplate';
+    src: url('../fonts/dealerplate_california.otf');
+}
+
+@font-face {
+    font-family: 'Sono';
+    src: url('../fonts/sono/Sono-Regular.ttf');
+}
